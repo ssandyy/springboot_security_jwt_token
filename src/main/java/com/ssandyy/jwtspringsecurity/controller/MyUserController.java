@@ -16,4 +16,16 @@ public class MyUserController {
 //        return userService.getUser(id);
 //    }
 
+//@PostMapping("/login")
+//public String addUser(@RequestBody AuthRequest authRequest){
+//    Authentication authenticate = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authRequest.getUserName(), authRequest.getPassword()));
+//    if(authenticate.isAuthenticated()){
+//        return jwtService.generateToken(authRequest.getUserName());
+//    }else {
+//        throw new UsernameNotFoundException("Invalid user request");
+//    }
+//}
+
+
+
 }
